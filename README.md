@@ -20,6 +20,7 @@ No dependencies other than raylib: just include `raygizmo.c/.h` in your project,
 - [Code Examples](#code-examples)
 - [License](#license)
 - [Current Limitations](#current-limitations)
+- [CMake Support](#cmake-support)
 - [Credits](#credits)
 
 ## Core Features
@@ -112,6 +113,15 @@ This project is licensed under the **Zlib** License. See the [LICENSE](LICENSE.m
 | Scale      | No     | Yes   | No    |
 
 For now, every gizmo with a scaling component will operate in local axis orientation. This means that an object will always be scaled as if no other transforms are applied.
+
+---
+
+## CMake Support
+
+For those who prefer a fully fledged CMake build system, there is a dedicated branch for you:  
+[**cmake-support branch**](https://github.com/cloudofoz/raylib-gizmo/tree/cmake-support)
+
+Credits and thanks to [@GuvaCode](https://github.com/GuvaCode) for his work in adding CMake support to raylib-gizmo!
 
 ---
 
