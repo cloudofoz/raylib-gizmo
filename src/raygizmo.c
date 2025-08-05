@@ -569,9 +569,9 @@ static Ray Vec3ScreenToWorldRay(Vector2 position, const Matrix* matViewProjInv)
 {
 	Ray ray = {0};
 
-	const float width = (float)(GetScreenWidth());
+	const float width = (float)(GetRenderWidth());
 
-	const float height = (float)(GetScreenHeight());
+	const float height = (float)(GetRenderHeight());
 
 	const Vector2 deviceCoords = {(2.0f * position.x) / width - 1.0f, 1.0f - (2.0f * position.y) / height};
 

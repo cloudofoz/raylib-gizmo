@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/raylib--gizmo-v0.1beta-informational) ![Version](https://img.shields.io/badge/raylib-v5.5-informational)  ![License](https://img.shields.io/github/license/cloudofoz/raylib-gizmo?refresh=1)
+![Version](https://img.shields.io/badge/raylib--gizmo-v0.2-informational) ![Version](https://img.shields.io/badge/raylib-v5.5-informational)  ![License](https://img.shields.io/github/license/cloudofoz/raylib-gizmo?refresh=1)
 
 > **Note**: This library is in **beta**. Your feedback and support in enhancing its quality are greatly appreciated!
 
@@ -80,11 +80,21 @@ int main(...) {
    </p>
 
 **[`2) example_02_gizmo_types.c`](https://github.com/cloudofoz/raylib-gizmo/blob/main/examples/gizmo/example_02_gizmo_types.c)**  
+
 > *Description:* Demonstrates multiple gizmo modes (translate, rotate, scale, and all combined) with fixed configurations for simplicity.
    <p align="center">
     <img src="res/raygizmo_example_02.jpg" alt="raygizmo_example_02.jpg" width="380">
    </p>
-   
+
+**[`2) example_03_render_targets.c`](https://github.com/cloudofoz/raylib-gizmo/blob/main/examples/gizmo/example_03_render_targets.c)**  
+> *Description:* Demonstrates four independent 3D viewports, each rendered to its own texture. The main gizmo (in translate mode) becomes active when the mouse hovers over one of the viewports.
+**Note:** This example requires raylib built from this commit: [`c4d733e`](https://github.com/raysan5/raylib/commit/c4d733e86482408cb6b6c3fa5d8770c769fd1c9d).
+
+   <p align="center">
+   <img src="res/raygizmo_example_03.jpg" alt="raygizmo_example_03.jpg" width="380">
+   </p>
+
+
 ---
 
 ## License
